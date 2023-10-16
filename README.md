@@ -1,7 +1,5 @@
 ## Java Playground
 
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/manoelcampos/postgres-playground)
-
 Repositório para testar criação de aplicações com JDK 21.
 
 Clique no botão acima para abrir o projeto no [GitPod](https://gitpod.io), um VSCode online 
