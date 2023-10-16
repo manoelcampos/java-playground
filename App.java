@@ -1,3 +1,3 @@
 void main(){
-    System.out.println("Aplicação Java de Exemplo");
+    System.out.println("Minha Primeira Aplicação Java");
 }
