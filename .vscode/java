@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Script copiado no .gitpod.Dockerfile para dentro do container no GitPod
+# pra facilitar rodar arquivos java que usam recursos preview no JDK 21
+
+echo "Compilando e executando programa Java com $0"
+echo ""
+
+# O grep remove o aviso de uso de recurso preview no JDK
+~/.sdkman/candidates/java/current/bin/java --enable-preview --source 21 "$1" 2> >(grep -v Note:)
