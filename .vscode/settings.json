@@ -2,8 +2,5 @@
     "java.jdt.ls.java.home": "~/.sdkman/candidates/java/current",
     "maven.terminal.useJavaHome": true,
     "maven.executable.preferMavenWrapper": false,
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "code-runner.executorMap": {
-        "java": "cd $dir && java --enable-preview --source 21 $fileName"
-    }
+    "terminal.integrated.defaultProfile.linux": "zsh"
 }
